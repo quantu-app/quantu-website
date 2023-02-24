@@ -13,37 +13,28 @@
 </svelte:head>
 
 <PublicLayout>
-	<div class="container-full-bg bg-dark py-5">
-		<div class="container">
-			<div class="row my-5 py-5 text-white">
-				<div class="col-md-6">
-					<div class="d-flex align-items-center h-100">
-						<div class="col-12">
-							<h1 class="display-5 fw-bold d-block">Master Mathematics.</h1>
-							<p class="fs-4 py-3 d-block">
-								Learn advanced mathematics using the best methods proven by learning science.
-							</p>
-							<button
-								type="button"
-								data-bs-toggle="modal"
-								data-bs-target="#sign-in-up-modal"
-								data-signup="true"
-								class="btn btn-primary"
-							>
+	<div class="bg-black">
+		<!-- Jumbotron -->
+	<div class="container mx-auto text-white">
+		<div class="grid sm:grid-cols-2 sm:grid-flow-row gap-2 p-10">
+			<div>
+				<h1 class="text-5xl">Master Mathematics.</h1>
+				<p class="py-6 text-2xl">
+					Learn advanced mathematics using the best methods proven by learning science.
+				</p>
+				<button type="button" class="btn btn-primary bg-blue-500 hover:bg-blue-600">
 								Get Started
 							</button>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 text-center">
-					<img
+			</div>
+			<div>
+				<img
 						src="https://github.com/quantu-app/design-platform/raw/master/app/resources/homepage/vitruve-man2-davinci.png"
 						alt="Vitruve Man by Davinci"
 					/>
-				</div>
 			</div>
 		</div>
 	</div>
+</div>
 	<div class="container">
 		<div class="row py-4 my-4">
 			<div class="col-12 my-5">
