@@ -1,0 +1,7 @@
+{
+  "layouts": {
+    "nav" : {
+      "get_started" : "Hello World"
+    }
+  }
+}

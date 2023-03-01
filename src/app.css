@@ -1,3 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* THEME */
+@import "styles/tailwind";
+@import "styles/base";
+@import "styles/button";
