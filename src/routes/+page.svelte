@@ -37,30 +37,34 @@
 			<div class="w-full my-5">
 				<h2 class="text-5xl font-bold">{$_('home.how_its_built.header')}</h2>
 			</div>
-			<div class="w-full grid grid-cols-2 gap-10 sm:20 lg:gap-28 my-20">
-				<div class="">
+			<div class="w-full flex flex-col my-20">
+				<div class="flex flex-row mb-20">
 					<img
 						src="https://github.com/quantu-app/design-platform/raw/master/app/resources/homepage/hand-crafted.png"
 						alt="Hand Crafted"
-						class="w-full sm:w-1/2"
+						class="w-[150px] mr-6"
 					/>
-					<h2 class="font-bold my-5 text-3xl">Hand-crafted to build mastery</h2>
-					<p class="mb-5 text-xl">
-						Quantu uses state-of-the-art research in learning science to craft lessons that stick deep
-						in your memory.
-					</p>
+					<div>
+						<h2 class="font-bold my-5 text-3xl">Hand-crafted to build mastery</h2>
+						<p class="mb-5 text-xl">
+							Quantu uses state-of-the-art research in learning science to craft lessons that stick deep
+							in your memory.
+						</p>
+					</div>
 				</div>
-				<div class="">
+				<div class="flex flex-row mb-20">
 					<img
 						src="https://github.com/quantu-app/design-platform/raw/master/app/resources/homepage/for-learners.png"
 						alt="For Learners"
-						class="w-full sm:w-1/2"
+						class="w-[150px] mr-6"
 					/>
-					<h2 class="font-bold my-5 text-3xl">For learners by learners</h2>
-					<p class="mb-5 text-xl">
-						Our community of volunteers design and develop lessons that make it easier for you to
-						understand complex topics.
-					</p>
+					<div>
+						<h2 class="font-bold my-5 text-3xl">For learners by learners</h2>
+						<p class="mb-5 text-xl">
+							Our community of volunteers design and develop lessons that make it easier for you to
+							understand complex topics.
+						</p>
+					</div>
 				</div>
 			</div>
 			
