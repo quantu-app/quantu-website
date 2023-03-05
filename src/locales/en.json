@@ -1,7 +1,18 @@
 {
   "layouts": {
     "nav" : {
-      "get_started" : "Hello World"
+      "get_started" : "Login"
+    }
+  },
+  "home" : {
+    "page_title" : "Quantu | where learning meets fun",
+    "download_btn" : "Download",
+    "jumbotron" : {
+      "title" : "Master Mathematics",
+      "callout" : "Learn advanced mathematics and science using the best methods proven by learning science."
+    },
+    "how_its_built" : {
+      "header" : "Advanced Math Made Simple"
     }
   }
 }
