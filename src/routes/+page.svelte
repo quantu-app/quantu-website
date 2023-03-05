@@ -16,7 +16,7 @@
 	<div class="bg-black">
 		<!-- Jumbotron -->
 		<div class="container mx-auto text-white max-w-screen-lg">
-			<div class="grid sm:grid-cols-2 sm:grid-flow-row gap-2 px-2 sm:px-4 lg:px-6 py-24">
+			<div class="grid sm:grid-cols-2 sm:grid-flow-row gap-2 px-2 sm:px-4 lg:px-6 py-48">
 				<div>
 					<h1 class="text-5xl">{$_("home.jumbotron.title")}</h1>
 					<p class="py-6 text-2xl">
@@ -32,7 +32,7 @@
 	<!-- Page Details -->
 	<div class="container mx-auto max-w-screen-lg">
 
-		<div class="flex flex-col py-4 my-4 px-2 sm:px-4 lg:px-6">
+		<div class="flex flex-col py-4 mt-32 my-4 px-2 sm:px-4 lg:px-6">
 			<!-- How its built -->
 			<div class="w-full my-5">
 				<h2 class="text-5xl font-bold">{$_('home.how_its_built.header')}</h2>
@@ -69,12 +69,12 @@
 			</div>
 			
 			<!-- Build Expertise -->
-			<div>
+			<div class="mt-16">
 				<div class="w-full pb-5 my-5">
 					<h2 class="text-5xl font-bold">Build Expertise Easily</h2>
 				</div>
-				<div class="w-full grid grid-cols-2 gap-10 sm:20 lg:gap-28 my-20">
-					<div class="text-center">
+				<div class="w-full grid grid-cols-1 sm:grid-cols-2 gap-10 sm:20 lg:gap-28 my-20">
+					<div class="text-center hidden sm:block">
 						<img
 							src="https://github.com/quantu-app/design-platform/raw/master/app/resources/homepage/decision_tree.png"
 							alt="Decision Tree"
