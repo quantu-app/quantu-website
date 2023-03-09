@@ -7,10 +7,10 @@
 </svelte:head>
 
 <PublicLayout>
-	<div class="container">
-		<div class="row py-4">
-			<div class="col offset-lg-2 col-lg-8">
-				<h1>QuantU Cookie Policy</h1>
+	<div class="container mx-auto md:w-2/3 px-12 prose mb-20">
+		<div>
+			<div>
+				<h1 class="mt-10">QuantU Cookie Policy</h1>
 				<p>
 					Please remember that your use of the Services is at all times subject to the
 					<a href="/info/terms-of-use/">Terms of Use</a>

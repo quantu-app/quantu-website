@@ -7,9 +7,9 @@
 </svelte:head>
 
 <PublicLayout>
-	<div class="container">
-		<div class="row py-4 my-4">
-			<div class="col offset-lg-1 col-lg-9">
+	<div class="container mx-auto md:w-2/3 px-12 prose mb-20">
+		<div>
+			<div>
 				<h2>Terms of Use</h2>
 
 				<p>QUANTU.APP WEBSITE TERMS OF USE AND COPYRIGHT NOTICE</p>

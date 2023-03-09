@@ -7,9 +7,9 @@
 </svelte:head>
 
 <PublicLayout>
-	<div class="container">
-		<div class="row py-4 my-4">
-			<div class="col offset-lg-2 col-lg-8">
+	<div class="container mx-auto md:w-2/3 px-12 prose mb-20">
+		<div>
+			<div>
 				<h2>Our Vision</h2>
 
 				<p>
